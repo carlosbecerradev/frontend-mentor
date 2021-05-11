@@ -1,0 +1,34 @@
+/** Google Fonts **/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+/** Variables **/
+
+:root {
+    /** Layouts **/
+    --mobile: 375px;
+    --desktop: 1440px;
+    /** Primary colors **/
+    --very-dark-blue: hsl(233, 47%, 7%);
+    --dark-desaturated-blue: hsl(244, 38%, 16%);
+    --soft-violet: hsl(277, 64%, 61%);
+    /** Neutral colors **/
+    --white: hsl(0, 0%, 100%);
+    --slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+    --slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+    /** Fonts **/
+    --lexend-deca: 'Lexend Deca', sans-serif;
+    --inter: 'Inter', sans-serif;
+    /** Font sizes **/
+    --font-base: 15px;
+}
+
+/** Base **/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: var(--font-base);
+}
