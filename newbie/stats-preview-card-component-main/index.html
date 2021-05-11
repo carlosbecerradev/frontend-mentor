@@ -8,6 +8,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/card.css">
 
   <title>Frontend Mentor | Stats preview card component</title>
 
@@ -15,14 +16,40 @@
 
 <body>
 
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
+  <div class="card">
+    <div class="card-header">
+      <div class="card-header--overlay"></div>
+    </div>
+    <div class="card-body">
+      <div class="card-body--title">Get <span class="card-body--title-span">insights</span> that help your business grow.</div>
+      <div class="card-body--description">
+        Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and
+        overall efficiency.
+      </div>
+      <div class="card-body--stats">
+        <div class="stats">
+          <div class="stats-item">
+            <div class="stats-item--block">
+              <div class="stats-item--count">10k+</div>
+              <div class="stats-item--text">companies</div>
+            </div>
+          </div>
+          <div class="stats-item">
+            <div class="stats-item--block">
+              <div class="stats-item--count">314</div>
+              <div class="stats-item--text">templates</div>
+            </div>
+          </div>
+          <div class="stats-item">
+            <div class="stats-item--block">
+              <div class="stats-item--count">12M+</div>
+              <div class="stats-item--text">queries</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
