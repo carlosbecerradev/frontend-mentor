@@ -63,3 +63,46 @@
     color: var(--slightly-transparent-white-60);
     font-family: var(--lexend-deca);
 }
+
+@media screen and (max-width: 1440px) and (min-width: 375px) {
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row: 1fr;
+        grid-template-areas: "body img";
+    }
+
+    .card-header {
+        grid-area: img;
+        height: 100%;
+    }
+
+    .card-body {
+        grid-area: body;
+        padding: 4rem;
+        padding-right: 8rem;
+    }
+
+    .card-body--title {
+        font-size: 36px;
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+
+    .card-body--description {
+        text-align: left;
+        margin-bottom: 4rem;
+    }
+
+    .stats {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 1.5rem;
+        justify-content: space-between;
+    }
+    
+    .stats-item {
+        text-align: left;
+    }
+
+}
