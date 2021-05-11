@@ -13,6 +13,7 @@
     background-color: var(--soft-violet);
     background-size: cover;
     background-blend-mode: multiply;
+    background-repeat: no-repeat;
 }
 .card-header--overlay {
     width: 100%;
@@ -27,16 +28,15 @@
     font-weight: 700;
     text-align: center;
     margin-bottom: 1.5rem;
-    font-size: 30px;
+    font-size: 28px;
 }
 .card-body--title-span {
     color: var(--soft-violet);
 }
 .card-body--description {
-    color: var(--slightly-transparent-white);
+    color: var(--slightly-transparent-white-75);
     font-family: var(--inter);
     text-align: center;
-    font-size: 17px;
     margin-bottom: 2rem;
     line-height: 1.8rem;
 }
@@ -55,12 +55,11 @@
     font-family: var(--inter);
     font-weight: 700;
     color: var(--white);
-    font-size: 20px;
+    font-size: 28px;
     margin-bottom: .5rem;
 }
 .stats-item--text {
     text-transform: uppercase;
-    color: var(--slightly-transparent-white);
+    color: var(--slightly-transparent-white-60);
     font-family: var(--lexend-deca);
-    font-size: 13px;
 }
