@@ -106,3 +106,17 @@
     }
 
 }
+
+
+@media screen and (min-width: 1440px) {
+
+    .main-background::after {
+        content: 'Breakpoints: 375px (mobile) and 1440px (desktop)';
+        color: #fff;
+        font-size: 5rem;
+    }
+
+    .card {
+        display: none;
+    }
+}
