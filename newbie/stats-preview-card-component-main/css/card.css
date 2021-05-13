@@ -64,7 +64,7 @@
     font-family: var(--lexend-deca);
 }
 
-@media screen and (max-width: 1440px) and (min-width: 375px) {
+@media screen and (max-width: 1440px) and (min-width: 376px) {
     .card {
         display: grid;
         grid-template-columns: 1fr 1fr;

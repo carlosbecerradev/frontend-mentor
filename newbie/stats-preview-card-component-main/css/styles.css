@@ -40,12 +40,13 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
+    padding: 6rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
 
 
-@media screen and (max-width: 1440px) and (min-width: 375px) {
+@media screen and (max-width: 1440px) and (min-width: 376px) {
     .main-background {
         padding: 8rem;
     }
