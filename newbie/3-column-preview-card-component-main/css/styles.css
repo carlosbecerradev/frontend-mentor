@@ -1,0 +1,32 @@
+/** Google Fonts **/
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+/** Variables **/
+
+:root {
+    /** Layouts **/
+    --breakpoints-mobile: 375px;
+    --breakpoints-desktop: 1440px;
+    /** Primary colors **/
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    /** Neutral colors **/
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+    /** Fonts **/
+    --font-family-lexend-deca: 'Lexend Deca', sans-serif;
+    --font-family-big-shoulders-display: 'Big Shoulders Display', cursive;
+    /** Font sizes **/
+    --font-size-base: 15px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: var(--font-size-base);
+}
