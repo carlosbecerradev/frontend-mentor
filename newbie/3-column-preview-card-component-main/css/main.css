@@ -18,7 +18,7 @@
 }
 
 .card {
-    padding: 2.9rem;
+    padding: 3.2rem;
 }
 
 .card:nth-child(1) {
@@ -39,19 +39,17 @@
     text-transform: uppercase;
     font-size: 40px;
     font-family: var(--font-family-big-shoulders-display);
+    color: var(--very-light-gray);
     font-weight: 700;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
 .paragraphs {
-    line-height: 30px;
+    line-height: 1.8rem;
     font-family: var(--font-family-lexend-deca);
     font-weight: 400;
-}
-
-.title, .paragraphs {
-    color: var(--very-light-gray);
+    color: var(--transparent-white);
 }
 
 /** Buttons **/
@@ -63,7 +61,7 @@
     padding: 1rem 2rem;
     border-radius: 2rem;
     margin-top: .5rem;
-    border: 2px solid var(--transparent-white);
+    border: 2px solid var(--very-light-gray);
     cursor: pointer;
 }
 
@@ -81,14 +79,14 @@
 
 .card .button:hover {
     background-color: transparent;
-    color: var(--transparent-white);
+    color: var(--very-light-gray);
 }
 
 /** Desktop **/
 
 @media screen and (min-width: 376px) {
     .cards {
-        max-width: 968px;
+        max-width: 900px;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
     }
