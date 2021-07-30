@@ -1,35 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
 
-  80K
-  Followers
 
-  803K
-  Likes
+  <div class="wrapper">
 
-  1.4K
-  Photos
+    <div class="wrapper-bg">
+      <img class="wrapper-bg--top" src="./images/bg-pattern-top.svg" alt="">
+      <img class="wrapper-bg--bottom" src="./images/bg-pattern-bottom.svg" alt="">
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <img src="./images/bg-pattern-card.svg" alt="">
+      </div>
+      <div class="card-profile">
+        <div class="card-profile--image">
+          <img src="./images/image-victor.jpg" alt="">
+        </div>
+        <div class="card-profile--name">Victor Crest <span class="card-profile--age">26</span></div>
+        <div class="card-profile--city">London</div>
+      </div>
+      <div class="card-divider">
+      </div>
+      <div class="card-info">
+        <div class="card-info-block">
+          <div class="card-info--item">
+            <div class="card-info--item-title bold">80K</div>
+            <div class="card-info--item-count">Followers</div>
+          </div>
+          <div class="card-info--item">
+            <div class="card-info--item-title bold">803K</div>
+            <div class="card-info--item-count">Likes</div>
+          </div>
+          <div class="card-info--item">
+            <div class="card-info--item-title bold">1.4K</div>
+            <div class="card-info--item-count">Photos</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/carlosbecerradev">Carlos Becerra</a>.
   </div>
 </body>
+
 </html>
