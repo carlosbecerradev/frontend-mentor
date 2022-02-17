@@ -24,18 +24,34 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop ![Mobile](./design/desktop-preview.jpg)
+Desktop ![Mobile](./design/desktop-design.jpg)
 
+Desktop active ![Mobile](./design/desktop-active-state.jpg)
 
 Mobile ![Mobile](./design/mobile-design.jpg)
+
+Mobile active ![Mobile](./design/mobile-active-state.jpg)
 
 ## My process
 
 ### Built with
 
-- TODO
-
+- HTML
+- CSS
+- Javascript
+- Google Fonts
+- SVG files
+- And love
 
 ### What I learned
 
+I can't use box-shadow attribute in pseudo-elements with clip-path attribute, but i can use the filter attribute, and the shadow will follow the shape.
 
+```css
+.share-content {
+  filter: drop-shadow(0 2px 6px var(--very-dark-grayish-blue));
+}
+.share-content::before {
+  clip-path: polygon(0 0, 50% 100%, 100% 0);
+}
+```
